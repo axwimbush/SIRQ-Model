@@ -34,4 +34,4 @@ A model run can then be performed with SIR parameters $\beta$ and \[\gamma\]:
 Pop = QTest.Run(0.32, 0.1, Length = 100, Runs = 1)
 ```
 
-This performs a single model evaluation with \[\beta=0.32\] and \[\gamma=0.1\] for 100 days. This returns a dictionary, 'Pop', which contains a list of integers describing the population within each state for each time step. Each state list can be accessed using the key for that state: 'Susceptible', 'Infectious', 'Recovered', 'Q_Susceptible', 'Q_Infectious', and 'Q_Recovered'.
+This performs a single model evaluation with \\beta=0.32 and \[\gamma=0.1\] for 100 days. This returns a dictionary, 'Pop', which contains a list of integers describing the population within each state for each time step. Each state list can be accessed using the key for that state: 'Susceptible', 'Infectious', 'Recovered', 'Q_Susceptible', 'Q_Infectious', and 'Q_Recovered'.
