@@ -28,7 +28,7 @@ QTest.Def_Population(0.984*PopSize, 0.01*PopSize, 0.001*PopSize, 0*PopSize, 0.00
 
 This initialises the population with a split of: S = 98.4%, I = 1%, R = 0.1%, Q_S = 0%, Q_I = 0.4%, and Q_R = 0.1% of the population.
 
-A model run can then be performed with SIR parameters \[\beta\] and \[\gamma\]:
+A model run can then be performed with SIR parameters $\beta$ and \[\gamma\]:
 
 ``` python
 Pop = QTest.Run(0.32, 0.1, Length = 100, Runs = 1)
